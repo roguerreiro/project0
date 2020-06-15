@@ -1,5 +1,5 @@
 # project0
- CS50W project0
+CS50W project0
 
 Website with a merely informative purpose, which focuses on the main aspects of
 singer Taylor Swift's life and professional career.
