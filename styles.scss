@@ -1,12 +1,58 @@
-$bkgcolor: lightcoral;
+@media all and (max-width: 400px) {
+  .widescreen {
+    display: none;
+  }
 
-body
-{
-  background-color: lightcoral;
+@media all and (min-width: 401px) {
+  .shortscreen {
+    display: none;
+  }
 }
 
-header
-{
+$bkgcolor: lightcoral;
+
+body {
+  background-color: $bkgcolor;
+}
+
+header {
   background-color: lightcyan;
   height: 75px;
+}
+
+nav {
+  a {
+    font-size: large;
+  }
+
+  a:hover {
+    background-color: lightgray
+  }
+}
+
+%title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.title {
+  @extend %title
+  font-family: serif;
+}
+
+h3 {
+  @extend %title
+  font-family: sans-serif;
+}
+
+#main-title {
+  @extend %title
+  font-family: cursive;
+}
+
+img {
+  width: 50%;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
