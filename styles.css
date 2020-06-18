@@ -5,7 +5,7 @@
   .shortscreen {
     display: none; } }
 body {
-  background-color: lightcoral !important;
+  background-color: white !important;
   margin-left: 20px !important;
   margin-right: 20px !important; }
 
@@ -33,9 +33,8 @@ nav a:hover {
 
 img {
   width: 50%;
-  max-width: 200px;
-  margin-left: auto;
-  margin-right: auto; }
+  margin-left: auto !important;
+  margin-right: auto !important; }
 
 table {
   margin-left: auto;
