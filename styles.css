@@ -9,10 +9,6 @@ body {
   margin-left: 20px !important;
   margin-right: 20px !important; }
 
-header {
-  background-color: lightcyan;
-  height: 75px; }
-
 nav a {
   font-size: large; }
 nav a:hover {
