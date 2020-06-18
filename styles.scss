@@ -1,9 +1,10 @@
-@media all and (max-width: 400px) {
+@media (max-width: 400px) {
   .widescreen {
     display: none;
   }
+}
 
-@media all and (min-width: 401px) {
+@media (min-width: 401px) {
   .shortscreen {
     display: none;
   }
@@ -20,12 +21,13 @@ header {
   height: 75px;
 }
 
-nav a {
+nav {
+  a {
     font-size: large;
   }
 
-a:hover {
-    background-color: lightgray;
+  a:hover {
+      background-color: lightgray;
   }
 }
 
@@ -35,12 +37,12 @@ a:hover {
 }
 
 .title {
-  @extend %title
+  @extend %title;
   font-family: serif;
 }
 
 #main-title {
-  @extend %title
+  @extend %title;
   font-family: cursive;
 }
 
@@ -61,17 +63,17 @@ table {
 }
 
 table {
-  th {
-    font-size: medium;
-    font-family: cursive;
-    font-weight: bold;
-    text-align: center;
-    border: $border;
-  }
+th {
+  font-size: medium;
+  font-family: cursive;
+  font-weight: bold;
+  text-align: center;
+  border: $border;
+}
 
-  td {
-    font-size: small;
-    text-align: center;
-    border: $border;
-  }
+td {
+  font-size: small;
+  text-align: center;
+  border: $border;
+}
 }

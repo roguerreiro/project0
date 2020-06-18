@@ -1,0 +1,71 @@
+@media (max-width: 400px) {
+	.widescreen {
+		display: none;
+	}
+}
+
+@media (min-width: 401px) {
+	.shortscreen {
+		display: none;
+	}
+}
+
+body {
+	background-color: lightcoral;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+header {
+	background-color: lightcyan;
+	height: 75px;
+}
+
+nav a {
+  font-size: large;
+}
+
+nav a:hover {
+background-color: lightgray;
+}
+
+.title, #main-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.title {
+  font-family: serif;
+}
+
+#main-title {
+  font-family: cursive;
+}
+
+img {
+  width: 50%;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+table th {
+  font-size: medium;
+  font-family: cursive;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid black;
+}
+
+table td {
+	font-size: small;
+	text-align: center;
+	border: 1px solid black;
+}
