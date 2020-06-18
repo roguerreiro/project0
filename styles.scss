@@ -1,19 +1,19 @@
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .widescreen {
     display: none;
   }
 }
 
-@media (min-width: 401px) {
+@media (min-width: 501px) {
   .shortscreen {
     display: none;
   }
 }
 
 body {
-  background-color: lightcoral;
-  margin-left: 20px;
-  margin-right: 20px;
+  background-color: lightcoral !important;
+  margin-left: 20px !important;
+  margin-right: 20px !important;
 }
 
 header {
@@ -29,6 +29,10 @@ nav {
   a:hover {
       background-color: lightgray;
   }
+}
+
+.center {
+  text-align: center;
 }
 
 %title {
@@ -63,17 +67,17 @@ table {
 }
 
 table {
-th {
-  font-size: medium;
-  font-family: cursive;
-  font-weight: bold;
-  text-align: center;
-  border: $border;
-}
+  th {
+    font-size: medium;
+    font-family: cursive;
+    font-weight: bold;
+    text-align: center;
+    border: $border;
+  }
 
-td {
-  font-size: small;
-  text-align: center;
-  border: $border;
-}
+  td {
+    font-size: small;
+    text-align: center;
+    border: $border;
+  }
 }

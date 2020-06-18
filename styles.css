@@ -1,71 +1,57 @@
-@media (max-width: 400px) {
-	.widescreen {
-		display: none;
-	}
-}
-
-@media (min-width: 401px) {
-	.shortscreen {
-		display: none;
-	}
-}
-
+@media (max-width: 500px) {
+  .widescreen {
+    display: none; } }
+@media (min-width: 501px) {
+  .shortscreen {
+    display: none; } }
 body {
-	background-color: lightcoral;
-	margin-left: 20px;
-	margin-right: 20px;
-}
+  background-color: lightcoral !important;
+  margin-left: 20px !important;
+  margin-right: 20px !important; }
 
 header {
-	background-color: lightcyan;
-	height: 75px;
-}
+  background-color: lightcyan;
+  height: 75px; }
 
 nav a {
-  font-size: large;
-}
-
+  font-size: large; }
 nav a:hover {
-background-color: lightgray;
-}
+  background-color: lightgray; }
+
+.center {
+  text-align: center; }
 
 .title, #main-title {
   text-align: center;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 .title {
-  font-family: serif;
-}
+  font-family: serif; }
 
 #main-title {
-  font-family: cursive;
-}
+  font-family: cursive; }
 
 img {
   width: 50%;
   max-width: 200px;
   margin-left: auto;
-  margin-right: auto;
-}
+  margin-right: auto; }
 
 table {
   margin-left: auto;
   margin-right: auto;
   border-collapse: collapse;
-  border: 1px solid black;
-}
+  border: 1px solid black; }
 
 table th {
   font-size: medium;
   font-family: cursive;
   font-weight: bold;
   text-align: center;
-  border: 1px solid black;
-}
-
+  border: 1px solid black; }
 table td {
-	font-size: small;
-	text-align: center;
-	border: 1px solid black;
-}
+  font-size: small;
+  text-align: center;
+  border: 1px solid black; }
+
+/*# sourceMappingURL=styles.css.map */
