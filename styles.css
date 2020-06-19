@@ -5,7 +5,7 @@
   .shortscreen {
     display: none; } }
 nav {
-  background-color: lightcyan; }
+  background-color: lightcyan !important; }
 
 body {
   background-color: white !important;
