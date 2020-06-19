@@ -32,6 +32,9 @@ img {
   margin-left: auto !important;
   margin-right: auto !important; }
 
+p {
+  text-align: center; }
+
 table {
   margin-left: auto;
   margin-right: auto;
