@@ -4,6 +4,9 @@
 @media (min-width: 501px) {
   .shortscreen {
     display: none; } }
+nav {
+  background-color: lightcyan; }
+
 body {
   background-color: white !important;
   margin-left: 20px !important;
@@ -29,6 +32,7 @@ nav a:hover {
 
 img {
   width: 50%;
+  display: block;
   margin-left: auto !important;
   margin-right: auto !important; }
 
